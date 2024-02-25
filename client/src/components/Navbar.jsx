@@ -47,7 +47,7 @@ const Navbar = () => {
                     </button>
 
                     {/* menu button for mobile devices */}
-                    <div className="sm:hidden z-10">
+                    <div className="sm:hidden z-50">
                         <button
                             onClick={toggleMenu}
                             className="focus:outline-none"
@@ -62,7 +62,7 @@ const Navbar = () => {
 
                     {/* nav items for small devices  */}
                     <div
-                        className={`sm:hidden bg-light-purple w-full min-h-screen ${
+                        className={`sm:hidden bg-light-purple w-full min-h-screen z-40 ${
                             isMenuOpen
                                 ? "fixed left-0 top-0 flex items-center justify-center"
                                 : "hidden"

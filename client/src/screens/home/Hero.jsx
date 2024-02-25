@@ -1,9 +1,9 @@
 import React from "react"
-import heroImg from "../assets/heroImg.svg"
+import heroImg from "../../assets/heroImg.svg"
 
 const Hero = () => {
     return (
-        <div className="container flex flex-col gap-6 items-center justify-center mt-12 md:flex-row md:gap-16 md:mt-24">
+        <div className="container flex flex-col gap-6 items-center justify-center  md:flex-row md:gap-16 md:min-h-[90vh]">
             <img
                 src={heroImg}
                 alt="a girl reading a book"
