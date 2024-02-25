@@ -45,6 +45,14 @@ async function run() {
             res.send(result)
         })
 
+        // gell a single book from the database
+        app.get("/book/:id", async (req, res) => {
+            const id = req.params.id
+            const filter = { _id: new ObjectId(id) }
+            const result = await booksCollection.findOne(filter)
+            res.send(result)
+        })
+
         // update a book data - PATCH or UPDATE method
         app.patch("/book/:id", async (req, res) => {
             const id = req.params.id
