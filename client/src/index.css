@@ -8,6 +8,25 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* scroll bar  */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #fefcfb;
+}
+::-webkit-scrollbar-thumb {
+    background: #9a6ac8;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #4d1b7c;
+}
+
 @layer components {
     .btn {
         @apply bg-dark-purple px-4 py-3 text-white rounded-md hover:bg-light-purple transition-all duration-300 ease-in-out;
