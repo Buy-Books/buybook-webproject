@@ -1,4 +1,6 @@
 import React, { useState } from "react"
+import { useNavigate } from "react-router-dom"
+import { toast } from "react-toastify"
 import axios from "axios"
 const UploadBook = () => {
     const [formData, setFormData] = useState({
@@ -10,6 +12,8 @@ const UploadBook = () => {
         bookPDF: "",
         price: ""
     })
+
+    const navigate = useNavigate()
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value })
@@ -33,6 +37,10 @@ const UploadBook = () => {
             bookPDF: "",
             price: ""
         })
+
+        toast.success("Book upload success!🎉")
+
+        navigate("/shop")
     }
 
     return (
