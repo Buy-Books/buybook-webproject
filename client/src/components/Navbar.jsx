@@ -42,9 +42,9 @@ const Navbar = () => {
                         ))}
                     </ul>
 
-                    <button className="sm:block hidden btn">
+                    <Link to={"/upload-book"} className="sm:block hidden btn">
                         Sell your books
-                    </button>
+                    </Link>
 
                     {/* menu button for mobile devices */}
                     <div className="sm:hidden z-50">
