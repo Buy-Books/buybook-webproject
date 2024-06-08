@@ -60,6 +60,6 @@ npm start
 
 The server will run at `http://localhost:3001`.
 
-### 5. Open BuyBook.lk in Your Browser
+### 5. Open BuyBook in Your Browser
 
 Visit `http://localhost:3000` in your web browser to access BuyBook.lk and start exploring!
