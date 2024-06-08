@@ -16,8 +16,7 @@ const Navbar = () => {
     const navItems = [
         { link: "Home", path: "/" },
         { link: "About", path: "/about" },
-        { link: "Shop", path: "/shop" },
-        { link: "Contact", path: "/contact" }
+        { link: "Shop", path: "/shop" }
     ]
 
     return (
@@ -35,16 +34,16 @@ const Navbar = () => {
                             <Link
                                 key={path}
                                 to={path}
-                                className="lowercase font-medium text-dark-purple cursor-pointer hover:text-light-purple"
+                                className="font-medium text-dark-purple cursor-pointer hover:text-light-purple"
                             >
                                 {link}
                             </Link>
                         ))}
                     </ul>
 
-                    <button className="sm:block hidden btn">
+                    <Link to={"/upload-book"} className="sm:block hidden btn">
                         Sell your books
-                    </button>
+                    </Link>
 
                     {/* menu button for mobile devices */}
                     <div className="sm:hidden z-50">
