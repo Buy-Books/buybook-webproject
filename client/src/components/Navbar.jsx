@@ -16,8 +16,7 @@ const Navbar = () => {
     const navItems = [
         { link: "Home", path: "/" },
         { link: "About", path: "/about" },
-        { link: "Shop", path: "/shop" },
-        { link: "Contact", path: "/contact" }
+        { link: "Shop", path: "/shop" }
     ]
 
     return (
@@ -35,7 +34,7 @@ const Navbar = () => {
                             <Link
                                 key={path}
                                 to={path}
-                                className="lowercase font-medium text-dark-purple cursor-pointer hover:text-light-purple"
+                                className="font-medium text-dark-purple cursor-pointer hover:text-light-purple"
                             >
                                 {link}
                             </Link>

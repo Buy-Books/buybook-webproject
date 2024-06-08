@@ -1,5 +1,6 @@
 import React from "react"
 import heroImg from "../../assets/heroImg.svg"
+import { Link } from "react-router-dom"
 
 const Hero = () => {
     return (
@@ -19,20 +20,9 @@ const Hero = () => {
                     Where Every Page Holds a New Adventure!
                 </p>
                 <div className="flex mt-6 w-full lg:w-[80%]">
-                    <input
-                        type="search"
-                        name="search"
-                        id="search"
-                        placeholder="search a book.."
-                        className="ring-2 ring-dark-purple focus:outline-none rounded-md px-4 py-3 w-full rounded-e-none"
-                    />
-
-                    <button
-                        type="submit"
-                        className="btn ring-2 ring-dark-purple rounded-s-none"
-                    >
-                        Search
-                    </button>
+                    <Link to={"/shop"} className="btn">
+                        Shop now
+                    </Link>
                 </div>
             </div>
         </div>
