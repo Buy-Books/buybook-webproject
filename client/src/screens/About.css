@@ -1,0 +1,24 @@
+.about-container{
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 0;
+}
+
+.about-left{
+    flex-basis: 40%;
+    position:relative ;
+}
+.about-right{
+    flex-basis: 56%;
+}
+
+.image{
+    width: 100%;
+    padding-top: 0;
+    
+}
+
+
