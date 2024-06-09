@@ -44,7 +44,7 @@ const UploadBook = () => {
     }
 
     return (
-        <div className="mb-12">
+        <div className="mb-12 px-8">
             <h2 className="text-2xl text-dark-purple text-center font-medium mb-12 lg:text-3xl">
                 Upload Book
             </h2>
