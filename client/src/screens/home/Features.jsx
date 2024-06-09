@@ -8,8 +8,8 @@ const Features = () => {
             <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
                 <div className="features-description flex flex-col gap-6 md:gap-10 md:w-1/2">
                     <h2 className="text-2xl text-dark-purple text-center font-medium md:text-3xl lg:text-4xl">
-                        Explore and find your favorite book at BuyBook.lk - Your
-                        Haven for Literary Discoveries!
+                        Explore and find your favorite book at BuyBooks.lk -
+                        Your Haven for Literary Discoveries!
                     </h2>
                     <p className="text-base text-slate-500">
                         Embark on a literary journey like never before at

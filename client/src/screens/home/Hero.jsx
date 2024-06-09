@@ -14,13 +14,13 @@ const Hero = () => {
             <div className="hero-desc-container flex flex-col items-center gap-3 md:items-start md:w-[50%]">
                 <h1 className="text-2xl text-slate-600 font-medium text-center leading-tight md:text-3xl lg:text-4xl xl:text-6xl md:text-left">
                     Discover Your Next Chapter at{" "}
-                    <span className="text-dark-purple">BuyBook.lk</span>
+                    <span className="text-dark-purple">BuyBooks.lk</span>
                 </h1>
                 <p className="text-base text-slate-500 text-center md:text-lg lg:text-xl md:text-left">
                     Where Every Page Holds a New Adventure!
                 </p>
-                <div className="flex mt-6 w-full lg:w-[80%]">
-                    <Link to={"/shop"} className="btn">
+                <div className="flex items-center mt-6 w-full text-center">
+                    <Link to={"/shop"} className="btn w-full md:max-w-[200px]">
                         Shop now
                     </Link>
                 </div>
